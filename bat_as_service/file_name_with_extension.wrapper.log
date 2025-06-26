@@ -1,0 +1,20 @@
+2025-06-25T19:49:55.772 INFO  console - Installing service 'file_name_with_extension (file_name_with_extension)'...
+2025-06-25T19:49:55.804 INFO  console - Service 'file_name_with_extension (file_name_with_extension)' was installed successfully.
+2025-06-25T19:49:57.519 INFO  console - Service 'file_name_with_extension (file_name_with_extension)' was refreshed successfully.
+2025-06-25T19:49:57.536 INFO  console - Starting service 'file_name_with_extension (file_name_with_extension)'...
+2025-06-25T19:49:57.740 DEBUG console - Starting WinSW in service mode.
+2025-06-25T19:49:57.769 INFO  console - Service 'file_name_with_extension (file_name_with_extension)' was refreshed successfully.
+2025-06-25T19:49:57.780 INFO  service - Starting sample_python.bat
+2025-06-25T19:49:57.811 INFO  service - Started process cmd (27828).
+2025-06-25T19:49:57.829 INFO  service - Service started successfully.
+2025-06-25T19:49:58.031 INFO  console - Service 'file_name_with_extension (file_name_with_extension)' started successfully.
+2025-06-25T19:51:16.163 INFO  console - Service 'file_name_with_extension (file_name_with_extension)' was refreshed successfully.
+2025-06-25T19:51:16.181 INFO  console - Stopping service 'file_name_with_extension (file_name_with_extension)'...
+2025-06-25T19:51:16.183 INFO  service - Stopping file_name_with_extension
+2025-06-25T19:51:16.185 DEBUG service - ProcessKill 27828
+2025-06-25T19:51:31.192 INFO  service - Child process 'cmd (27828)' terminated.
+2025-06-25T19:51:31.202 INFO  service - Finished file_name_with_extension
+2025-06-25T19:51:31.202 INFO  service - Service stopped successfully.
+2025-06-25T19:51:31.352 INFO  console - Service 'file_name_with_extension (file_name_with_extension)' stopped successfully.
+2025-06-25T19:51:32.941 INFO  console - Uninstalling service 'file_name_with_extension (file_name_with_extension)'...
+2025-06-25T19:51:32.968 INFO  console - Service 'file_name_with_extension (file_name_with_extension)' was uninstalled successfully.

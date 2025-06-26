@@ -1,0 +1,5 @@
+<service>
+  <id>full_path_with_extension</id>
+  <executable>%BASE%\bin\sample_python.bat</executable> <!-- Full path to executable, with extension. -->
+  <arguments>-m http.server 8000</arguments>
+</service>

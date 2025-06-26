@@ -1,0 +1,19 @@
+2025-06-25T19:49:59.296 INFO  console - Installing service 'full_path_no_extension (full_path_no_extension)'...
+2025-06-25T19:49:59.338 INFO  console - Service 'full_path_no_extension (full_path_no_extension)' was installed successfully.
+2025-06-25T19:50:00.538 INFO  console - Starting service 'full_path_no_extension (full_path_no_extension)'...
+2025-06-25T19:50:00.759 DEBUG console - Starting WinSW in service mode.
+2025-06-25T19:50:00.794 INFO  service - Starting C:\Users\username\dev\winsw_scratchpad\bat_as_service\bin\sample_python
+2025-06-25T19:50:00.816 ERROR service - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'C:\Users\username\dev\winsw_scratchpad\bat_as_service\bin\sample_python' with working directory 'C:\Users\username\dev\winsw_scratchpad\bat_as_service'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo)
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo)
+   at WinSW.WrapperService.StartProcess(String, String, LogHandler , Action`1 )
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[])
+2025-06-25T19:50:01.824 FATAL console - Failed to start the service.
+2025-06-25T19:51:34.310 INFO  console - Stopping service 'full_path_no_extension (full_path_no_extension)'...
+2025-06-25T19:51:34.328 INFO  console - Service 'full_path_no_extension (full_path_no_extension)' has already stopped.
+2025-06-25T19:51:35.622 INFO  console - Uninstalling service 'full_path_no_extension (full_path_no_extension)'...
+2025-06-25T19:51:35.649 INFO  console - Service 'full_path_no_extension (full_path_no_extension)' was uninstalled successfully.

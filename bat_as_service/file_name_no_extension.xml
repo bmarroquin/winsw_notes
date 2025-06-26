@@ -1,0 +1,6 @@
+<service>
+  <id>file_name_no_extension</id>
+  <env name="PATH" value="%BASE%\bin;%PATH%"/> <!--Add the bin folder ot the path so it can be discovered.-->
+  <executable>sample_python</executable>
+  <arguments>-m http.server 8000</arguments>
+</service>
