@@ -1,0 +1,9 @@
+<service>
+  <id>script_pre_start</id>
+  <executable>%BASE%\.venv\Scripts\python.exe</executable>
+  <arguments>-m http.server 8000</arguments>
+  <prestart>
+    <executable>powershell</executable>
+    <arguments>-File create_venv_and_install_dependencies.ps1</arguments>
+  </prestart>
+</service>
